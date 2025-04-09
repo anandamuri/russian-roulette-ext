@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tab Russian Roulette",
   "version": "1.1.7",
-  "description": "Randomly closes a tab when you click the button.",
+  "description": "Randomly closes tabs with a click.",
   "permissions": ["tabs"],
   "action": {
     "default_popup": "popup.html",
