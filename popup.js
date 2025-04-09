@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function update() {
       confetti.forEach(c => {
         c.tiltAngle += c.tiltAngleIncrement;
-        c.y += (Math.cos(c.d) + 3 + c.r / 2) / 2;
+        c.y += (Math.cos(c.d) + 1 + c.r / 2) / 2;
         c.tilt = Math.sin(c.tiltAngle - c.d / 3) * 15;
         if (c.y > canvas.height) {
           c.y = -10;
@@ -75,6 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Cleanup after 3 seconds
     setTimeout(() => {
       document.body.removeChild(canvas);
-    }, 3000);
+    }, 1500);
   }
 });
