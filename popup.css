@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background-color: #121212;
+  color: #fff;
+  padding: 20px;
+  width: 300px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+.final-purge-btn {
+  background-color: #365ce5;
+  color: #ffffff;
+}
